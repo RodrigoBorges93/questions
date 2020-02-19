@@ -39,6 +39,7 @@ export default function Questions(){
 
             setResposta([]);
             setAcertos(0);
+            setIndex(0);
         }
     }
 

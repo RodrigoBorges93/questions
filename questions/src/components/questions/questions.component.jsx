@@ -17,11 +17,11 @@ export default function Questoes({questions}){
                         {
                             questions.answers.map((answer) => answer.map((a, i) => (
                                     <Button
-                                    className='button-answer'
-                                    value={a} 
-                                    onClick={(e) => 
-                                    setResposta([...resposta, {marcado: e.target.value, correta: questions.correct_answer}])} 
-                                    key={i} primary>{a}
+                                        className='button-answer'
+                                        value={a} 
+                                        onClick={(e) => 
+                                        setResposta([...resposta, {marcado: e.target.value, correta: questions.correct_answer}])} 
+                                        key={i} primary>{a}
                                     </Button>
                             ))
                             )
