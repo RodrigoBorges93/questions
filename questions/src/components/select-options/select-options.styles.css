@@ -1,0 +1,12 @@
+.options{
+    width: 30%;
+    height: 25vh;
+    margin-left: 35%;
+    margin-top: 20vh;
+    display: grid;
+    grid-template-areas: 1fr;
+    grid-gap: 20px;
+}
+.title{
+    text-align: center;
+}

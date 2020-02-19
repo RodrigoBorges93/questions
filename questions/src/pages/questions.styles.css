@@ -1,0 +1,46 @@
+.questions{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 130%;
+    color: #2f3640;
+    background-color: azure;
+    border-radius: 20px;
+    -webkit-box-shadow: 15px 22px 43px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 22px 43px -6px rgba(0,0,0,0.75);
+    box-shadow: 15px 22px 43px -6px rgba(0,0,0,0.75);
+    margin-bottom: 45px;
+}
+.quiz{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    height: 45vh;
+    margin-bottom: 20px;
+}
+
+.all-answers{
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin-left: 25%;
+    grid-gap: 10px;
+    height: 20vh;
+    display: grid;
+}
+
+.button-answer:focus{
+    background-color: green !important;
+}
+
+.button-answer{
+    -webkit-box-shadow: 22px 20px 10px 0px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: 22px 20px 10px 0px rgba(0,0,0,0.75) !important;
+    box-shadow: 22px 20px 10px 0px rgba(0,0,0,0.75) !important;
+}
+
+.send-button{
+    width: 15% !important;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 44% !important ;
+    background-color: #4cd137 !important;
+}
